@@ -12,7 +12,7 @@ public class HelpActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_help);
 
-        TextView tv_title = findViewById(R.id.name_tv);
-        tv_title.setText("Starting Help");
+        String name_tv = getString(R.string.name_tv);
+        String text = getString(R.string.text);
     }
 }
